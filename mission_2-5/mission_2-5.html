@@ -1,0 +1,25 @@
+﻿<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form method="POST" action="mission_2-5-1.php">
+			<input type="text" name="input_name" placeholder="名前"><br>
+			<input type="text" name="input_comment" placeholder="コメント"><br>
+			<input type="hidden" name="input_change">
+			<input type="text" name="input_passwd" placeholder="パスワード">
+			<input type="submit" value="送信"><br>
+			<input type="hidden" name="mode" value="0">
+		</form>
+		<form method="POST" action="mission_2-5-2.php">
+			<input type="text" name="input_delete_num" placeholder="削除対象番号"><br>
+			<input type="text" name="input_delete_passwd" placeholder="パスワード">
+			<input type="submit" value="削除"><br>
+		</form>
+		<form method="POST" action="mission_2-5-1.php">
+			<input type="text" name="input_change_num" placeholder="編集対象番号"><br>
+			<input type="text" name="input_change_passwd" placeholder="パスワード">
+			<input type="submit" value="編集"><br>
+		</form>
+	</body>
+</html>
